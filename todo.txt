@@ -1,0 +1,83 @@
+
+update [Advert].[dbo].[AdvertProfile] set EmployeeStatus='3' where UserId IN
+   (select Id from [Advert].[dbo].[AdvertUser] where email like '%qwe%divermail.com%')
+
+
+update [Advert].[dbo].[AdvertProfile] set FirstName= (select Email from [dbo].[AdvertUser] u where UserId = u.Id)  where UserId In (Select Id from [dbo].[AdvertUser] where Email like 't%divermail.com%')
+
+/****** Скрипт для команды SelectTopNRows из среды SSMS  ******/
+SELECT TOP 1000 [Id]
+      ,[Amount]
+      ,[DateTillUTC]
+      ,[DateUTC]
+      ,[UserId]
+  FROM [Advert].[dbo].[MembershipPayment]
+  where UserId In (Select Id  FROM [Advert].[dbo].[User] where Email like '%qwe46@divermail.com%')
+
+ update [Advert].[dbo].[MembershipPayment] set Amount='501' 
+  where UserId In (Select Id  FROM [Advert].[dbo].[User] where Email like '%qwe46@divermail.com%')
+
+update [Advert].[dbo].[MembershipPayment] set DateTillUTC='2015-09-26 14:21:40.8539450' 
+  where UserId In (Select Id  FROM [Advert].[dbo].[User] where Email like '%qwe47@divermail.com%')
+
+
+
+
+
+
+use Discounter
+SELECT TOP 1000 [Id]
+      ,[Amount]
+      ,[DateTillUTC]
+      ,[DateUTC]
+      ,[UserId]
+  FROM [Discounter].[dbo].[MembershipPayment]
+  where UserId In (Select Id  FROM [Discounter].[dbo].[User] where Email like '%qwe4@divermail.com%')
+
+
+ String SQL = "use Discounter SELECT TOP 1000 [UserId],[FirstName],[LastName],[SurName],[MembershipTill] FROM [Discounter].[dbo].[Profile] where UserId In (Select Id  FROM [Discounter].[dbo].[User] where Email like '%qwe4@divermail.com%')";
+	 
+
+
+аудит - валидный и не валидный уровень существенности
+
+
+t1@divermail.com
+qwe1@divermail.com
+deadron@yandex.ru
+ref1@freeletter.me
+ссылки в шапке и футере на какой лендинг?
+
+By login_frame = By.xpath("//div[@id][contains(@class,'dashboard-item-frame')][descendant::h3[text()='Login']]//iframe");
+driver.switchTo().frame(driver.findElement(login_frame));
+driver.findElement(By.id("login"));
+
+malidu@techgroup.me
+
+!Письмо о создании личного кабинета в Рекламке надо присылать от лица Рекламки, а не Дискаунтера.
+
+!Письма коренным пользователям Рекламки отправлять с подписью С уважением, Рекламный клуб. У нас появилось название "Рекламный клуб".
+
+
+!Делаем рассылку от имени, которое пользователь вводит при трудоустройстве. Не даем менять подпись.
+
+!Имя с дискаунтера будет отображаться в рефералах, когда будет реализована стори по рефералам. А так же в приветствии в исходящем письме (если будем его делать)
+
+
+При трудоустройстве. Мы в админка сверяем фио и паспорт. Если не совпадает, то отправляем пользователю письмо и при входе в кабинет не даем ему возможность что-либо делать. Выдаем сообщение и поля ввода ФИО, а так же функционал для загрузки паспорта. Только когда ФИО совпадет, мы даем возможность работать в РК. Текст письма: http://whfhdj.axshare.com/#p=не_приняли Страница в кабинете: http://whfhdj.axshare.com/#p=трудоустройство_повтор
+
+После трудоустройства. 
+!Если пользователь переименовывается на РК, то на Дискаунтере он не переименовывается. 
+
+!На сайте фамилию менять только после одобрения администратора.
+
+ФИО с дискаунтера отображается: a) в списке рефералов пользователя, который пригласил меня или к которому я перешел; b)в приветствии входящего письма(если будем делать), c)в списке исходящих писем пользователя,
+для которого я реферал(кому он отправил рассылку; выбор из списка кому переслать письмо).
+
+ФИО с рк отображается: в подписи к письму. Подпись произвольно менять нельзя. Но если фамилия изменена в настройках и одобрена админом, то и в подписи она меняется.
+
+команда "сохранить" заново запускает рассылку
+
+в эксель выгружаеся одна страница
+
+
