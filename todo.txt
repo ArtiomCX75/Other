@@ -46,6 +46,10 @@ t1@divermail.com
 qwe1@divermail.com
 deadron@yandex.ru
 ref1@freeletter.me
+
+zxc1@freeletter.me
+
+
 ссылки в шапке и футере на какой лендинг?
 
 By login_frame = By.xpath("//div[@id][contains(@class,'dashboard-item-frame')][descendant::h3[text()='Login']]//iframe");
@@ -79,5 +83,9 @@ malidu@techgroup.me
 команда "сохранить" заново запускает рассылку
 
 в эксель выгружаеся одна страница
+
+
+останавливается ли таймер при ожидании реакции клиента? 
+
 
 
