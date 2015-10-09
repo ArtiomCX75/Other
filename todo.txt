@@ -81,3 +81,8 @@ malidu@techgroup.me
 в эксель выгружаеся одна страница
 
 
+ where AccountNumber like '%79%'
+
+use Discounter
+update [Discounter].[dbo].[Invite] set AccountNumber='+70000000000' 
+   where AccountNumber like '%7917289%'
