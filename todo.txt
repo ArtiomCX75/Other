@@ -46,6 +46,10 @@ t1@divermail.com
 qwe1@divermail.com
 deadron@yandex.ru
 ref1@freeletter.me
+
+zxc1@freeletter.me
+
+
 ссылки в шапке и футере на какой лендинг?
 
 By login_frame = By.xpath("//div[@id][contains(@class,'dashboard-item-frame')][descendant::h3[text()='Login']]//iframe");
@@ -76,13 +80,21 @@ malidu@techgroup.me
 
 ФИО с рк отображается: в подписи к письму. Подпись произвольно менять нельзя. Но если фамилия изменена в настройках и одобрена админом, то и в подписи она меняется.
 
-команда "сохранить" заново запускает рассылку
+
 
 в эксель выгружаеся одна страница
 
 
+<<<<<<< HEAD
  where AccountNumber like '%79%'
 
 use Discounter
 update [Discounter].[dbo].[Invite] set AccountNumber='+70000000000' 
    where AccountNumber like '%7917289%'
+=======
+http://screenshot.ru/5e2b9afa82e9182663c6e6b9ec122837.png
+
+синяя ссылка в дискаунтере "продлить членство"
+поменять текст, если пополняю счет раньше срока
+
+>>>>>>> origin/master
