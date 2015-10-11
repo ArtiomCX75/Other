@@ -85,8 +85,18 @@ malidu@techgroup.me
 в эксель выгружаес€ одна страница
 
 
+
+ where AccountNumber like '%79%'
+
+use Discounter
+update [Discounter].[dbo].[Invite] set AccountNumber='+70000000000' 
+   where AccountNumber like '%7917289%'
+=======
 http://screenshot.ru/5e2b9afa82e9182663c6e6b9ec122837.png
 
 син€€ ссылка в дискаунтере "продлить членство"
 помен€ть текст, если пополн€ю счет раньше срока
+
 638746
+
+
