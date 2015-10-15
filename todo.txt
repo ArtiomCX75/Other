@@ -72,12 +72,21 @@ malidu@techgroup.me
 use Discounter
 update [Discounter].[dbo].[Invite] set AccountNumber='+70000000000' 
    where AccountNumber like '%7917289%'
-=======
+
+use Discounter
+update [Discounter].[dbo].[Profile] set MembershipTill='2015-10-21 14:21:40.8539450' 
+  where UserId In (Select Id  FROM [Advert].[dbo].[User] where Email like '%ref1@freeletter.me%')
+
 http://screenshot.ru/5e2b9afa82e9182663c6e6b9ec122837.png
 
 Д синяя ссылка в дискаунтере "продлить членство"
 Д поменять текст, если пополняю счет раньше срока
 А после принятия нельзя оформить новую заявку
+А получить отчет 1 файл; после подтверждения - 2 файла
+А полный цикл
+А возможно нужен текст в лк аудитора о том, что отчет отправлен (мб когда отправлен)
+
+
 baje@inboxstore.me 123456
 	
 afokin
@@ -87,3 +96,13 @@ afokin
 noduhinicu@inboxdesign.me
 sfshsfh
 385554
+
+radiza@freeletter.me
+
+доступы к разделам работники люди рассылки просмотр
+работники: 4 вкладок просмотр
+заявки (принять/отправить на доработку)
+трудоустроенные(выгрузка) (право уволить)
+изменение (подтверждение/отклонение)
+люди (отмечать/убирать суперпартнера)
+рассылки (право на создание, право на редактирование)
