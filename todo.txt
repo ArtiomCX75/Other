@@ -128,3 +128,9 @@ http://test.discounter-club.ru/account/register?code=Cb0UeI
 http://test.discounter-club.ru/account/register?code=Xul3K0  kemiku@postonline.me
 
 http://test.discounter-club.ru/account/register?code=LG3Eqk
+Д (только фф?) нет уведомлений, что приглашение отправлено
+Д не приходят письма с инвайтами
+
+вд		урл
+вд сервер	сервер+урл
+вд сервер урл
