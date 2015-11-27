@@ -49,7 +49,7 @@ update [Discounter].[dbo].[Profile] set MembershipTill='2015-10-21 14:21:40.8539
 t1@divermail.com
 qwe1@divermail.com
 deadron@yandex.ru
-ref1@freeletter.me
+à
 ref1@mailforspam.com
 
 zxc1@freeletter.me
