@@ -205,3 +205,19 @@ testdisk@mailforspam.com
 д нет повторного подтверждения регистрации
 
 r1@mailforspam.com
+Д страница "почта подтверждена"
+
+
+
+
+
+
+
+
+update [Discounter].[dbo].[Profile]
+set MembershipTill ='2018-06-21 14:21:40.8539450'
+where UserId In (Select Id  FROM [Discounter].[dbo].[User] where Email like 'r%@mailforspam.com')
+
+
+INSERT INTO [Discounter].[dbo].[MembershipPayment] (Id, Amount, DateDebited, DateHolded, Status, UserId) 
+VALUES (NEWID(), '5000.00', '2018-01-16 00:00:01.0000000', '2015-12-16 22:01:25.2550522','0', (Select Id  FROM [Discounter].[dbo].[User] where Email like 'r%@mailforspam.com'))
