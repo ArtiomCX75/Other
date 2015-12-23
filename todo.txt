@@ -211,7 +211,7 @@ r1@mailforspam.com
 zxc1@yhg.biz
 AHcla9mCXE-lqoJf6HFNpg==
 
-
+Р - доходят ли письма к рефералам нетрудоустроенного пользователя
 
 404 в админке
 письма о создании кабинета (отсутствуют/невалидны)
@@ -224,3 +224,15 @@ where UserId In (Select Id  FROM [Discounter].[dbo].[User] where Email like 'r%@
 
 INSERT INTO [Discounter].[dbo].[MembershipPayment] (Id, Amount, DateDebited, DateHolded, Status, UserId) 
 VALUES (NEWID(), '5000.00', '2018-01-16 00:00:01.0000000', '2015-12-16 22:01:25.2550522','0', (Select Id  FROM [Discounter].[dbo].[User] where Email like 'r%@mailforspam.com'))
+
+сначала лого СП, потом список писем
+https://pp.vk.me/c630531/v630531012/8294/Y3K5GyQPYiI.jpg
+
+а вот тут как-то можно выделять эмейл, чтоб было понятно, что на него тоже можно нажать?
+может его под остальными пунктами разместить?
+https://pp.vk.me/c630531/v630531012/8283/-vbtGHDVTNA.jpg
+
+может лучше под сэндвич скрыть верхние три ссылки на лендинге? https://pp.vk.me/c630531/v630531012/823f/sx74b-3uLCs.jpg
+
+
+aud2@yhg.biz 908153 aud3@yhg.biz 685801 aud4@yhg.biz 942221
